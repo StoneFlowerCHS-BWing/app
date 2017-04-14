@@ -6,19 +6,19 @@ angular.module('app').config(function($routeProvider, $locationProvider) {
             controller: 'homeController'
         })
         .when('/ApprovedPlan1', {
-            templateUrl: '../StaticPage/ApprovedPlan1.html',
+            templateUrl: 'StaticPage/ApprovedPlan1.html',
             controller: 'homeController'
         })
         .when('/ApprovedPlan2', {
-            templateUrl: '../StaticPage/ApprovedPlan2.html',
+            templateUrl: 'StaticPage/ApprovedPlan2.html',
             controller: 'homeController'
         })
         .when('/CommencementCertificate', {
-            templateUrl: '../StaticPage/CommencementCertificate.html',
+            templateUrl: 'StaticPage/CommencementCertificate.html',
             controller: 'homeController'
         })
         .when('/CompletionCertificate', {
-            templateUrl: '../StaticPage/CompletionCertificate.html',
+            templateUrl: 'StaticPage/CompletionCertificate.html',
             controller: 'homeController'
         })
         .otherwise({
