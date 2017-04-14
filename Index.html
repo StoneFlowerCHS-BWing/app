@@ -1,98 +1,102 @@
 <!DOCTYPE html>
 <html>
 
-<<head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stone Flower B Co-operative Housing Society Limited</title>
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/site.css" rel="stylesheet" />
-    <script src="~/Scripts/modernizr-2.6.2.js"></script>
-    </head>
+</head>
 
-    <body ng-app>
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+<body ng-app="app">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">Application name</a>
-                </div>
+                <a class="navbar-brand" href="/">Application name</a>
+            </div>
 
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="/">Home</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             Building Plan
                             <span class="caret"></span>
                         </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="~/StaticPage/ApprovedPlan1">Assessment Plan1</a></li>
-                                <li><a href="~/StaticPage/ApprovedPlan2">Assessment Plan2</a></li>
-                                <li><a href="~/StaticPage/CommencementCertificate">Commencement Certificate</a></li>
-                                <li><a href="~/StaticPage/CompletionCertificate">Completion Certificate</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <ul class="dropdown-menu">
+                            <li><a href="~/StaticPage/ApprovedPlan1">Assessment Plan1</a></li>
+                            <li><a href="~/StaticPage/ApprovedPlan2">Assessment Plan2</a></li>
+                            <li><a href="~/StaticPage/CommencementCertificate">Commencement Certificate</a></li>
+                            <li><a href="~/StaticPage/CompletionCertificate">Completion Certificate</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             Society
                             <span class="caret"></span>
                         </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="~/StaticPage/SocietyRegistration">Registration Certificate</a></li>
-                                <li><a href="~/StaticPage/Lift1Certificate">Autometic Lift Certificate</a></li>
-                                <li><a href="~/StaticPage/Lift2Certificate">Manual Certificate</a></li>
-                                <li><a href="~/StaticPage/FireCertificate">Fire Certificate</a></li>
-                                <li><a href="~/StaticPage/CCTVProtectionSystem">CCTV Protection System</a></li>
-                                <li><a href="~/StaticPage/FireProtectionSystem">Fire Protection System</a></li>
-                                <li><a href="~/StaticPage/PumpRoom">Pump Room</a></li>
-                                <li><a href="~/StaticPage/SolarWaterHeater">Solar Water Heter</a></li>
-                                <li><a href="~/StaticPage/LiftRoom">Lift Room</a></li>
-                                <li><a href="~/StaticPage/MeterCabin">Meter Cabin</a></li>
-                                <li><a href="~/StaticPage/SocietyForms">Society Forms</a></li>
-                            </ul>
-                        </li>
+                        <ul class="dropdown-menu">
+                            <li><a href="~/StaticPage/SocietyRegistration">Registration Certificate</a></li>
+                            <li><a href="~/StaticPage/Lift1Certificate">Autometic Lift Certificate</a></li>
+                            <li><a href="~/StaticPage/Lift2Certificate">Manual Certificate</a></li>
+                            <li><a href="~/StaticPage/FireCertificate">Fire Certificate</a></li>
+                            <li><a href="~/StaticPage/CCTVProtectionSystem">CCTV Protection System</a></li>
+                            <li><a href="~/StaticPage/FireProtectionSystem">Fire Protection System</a></li>
+                            <li><a href="~/StaticPage/PumpRoom">Pump Room</a></li>
+                            <li><a href="~/StaticPage/SolarWaterHeater">Solar Water Heter</a></li>
+                            <li><a href="~/StaticPage/LiftRoom">Lift Room</a></li>
+                            <li><a href="~/StaticPage/MeterCabin">Meter Cabin</a></li>
+                            <li><a href="~/StaticPage/SocietyForms">Society Forms</a></li>
+                        </ul>
+                    </li>
 
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 Municipality Record
                                 <span class="caret"></span>
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="~/StaticPage/LandRecord">Land Record</a></li>
-                                <li><a href="~/StaticPage/WaterRecord">WaterRecord</a></li>
-                                <li><a href="~/StaticPage/ElectricityRecord">ElectricityRecord</a></li>
-                            </ul>
-                        </li>
+                        <ul class="dropdown-menu">
+                            <li><a href="~/StaticPage/LandRecord">Land Record</a></li>
+                            <li><a href="~/StaticPage/WaterRecord">WaterRecord</a></li>
+                            <li><a href="~/StaticPage/ElectricityRecord">ElectricityRecord</a></li>
+                        </ul>
+                    </li>
 
-                        <li><a href="/Home/About">About</a></li>
-                        <li><a href="/Home/Contact">Contact</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/Account/Register" id="registerLink">Register</a></li>
-                        <li><a href="/Account/Login" id="loginLink">Log in</a></li>
-                    </ul>
+                    <li><a href="/Home/About">About</a></li>
+                    <li><a href="/Home/Contact">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/Account/Register" id="registerLink">Register</a></li>
+                    <li><a href="/Account/Login" id="loginLink">Log in</a></li>
+                </ul>
 
-                </div>
             </div>
         </div>
+    </div>
 
-        <div class="container body-content">
-            <div ng-view/>
-            <hr />
-            <footer>
-                <p>Created by Arif Shaikh (Secretary Stone Flower B CHS)</p>
-            </footer>
-        </div>
+    <div class="container body-content">
+        <div ng-view/>
+        <hr />
+        <footer>
+            <p>Created by Arif Shaikh (Secretary Stone Flower B CHS)</p>
+        </footer>
+    </div>
 
-        <script src="/Scripts/jquery-1.10.2.js"></script>
-        <script src="/Scripts/bootstrap.js"></script>
-        <script src="/Scripts/respond.js"></script>
+    <script src="/Scripts/jquery-1.10.2.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
+    <script src="/Scripts/respond.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
 
-    </body>
+    <script src="~/Scripts/app.js"></script>
+
+</body>
 
 </html>
