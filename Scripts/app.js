@@ -1,4 +1,6 @@
-angular.module('app').config(function($routeProvider, $locationProvider) {
+var myApp = angular.module('app', []);
+
+myApp.config([function($routeProvider, $locationProvider) {
     $routeProvider
 
         .when('/', {
@@ -25,6 +27,4 @@ angular.module('app').config(function($routeProvider, $locationProvider) {
             redirectTo: '/'
         });
     $locationProvider.html5Mode(true);
-});
-
-angular.module('app').controller("homeController", [function() {}])
+}]);
