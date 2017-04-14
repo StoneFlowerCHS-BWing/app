@@ -6,7 +6,7 @@ angular.module('app').config(function($routeProvider, $locationProvider) {
             controller: 'homeController'
         })
         .when('/ApprovedPlan1', {
-            templateUrl: 'StaticPage/ApprovedPlan1.html',
+            templateUrl: './StaticPage/ApprovedPlan1.html',
             controller: 'homeController'
         })
         .when('/ApprovedPlan2', {
@@ -26,3 +26,5 @@ angular.module('app').config(function($routeProvider, $locationProvider) {
         });
     $locationProvider.html5Mode(true);
 });
+
+angular.module('app').controller("homeController", [function() {}])
