@@ -4,7 +4,7 @@ myApp.config(['$routeProvider', '$locationProvider',
     function($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
-                templateUrl: 'app/StaticPage/SocietyRegistration.html',
+                templateUrl: 'StaticPage/SocietyRegistration.html',
                 controller: 'homeController'
             })
             .when('/ApprovedPlan1', {
