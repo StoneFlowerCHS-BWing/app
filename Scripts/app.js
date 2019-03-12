@@ -33,14 +33,17 @@ myApp.config(['$routeProvider', '$locationProvider',
             })
 
         .when('/SocietyRegistration', {
-            templateUrl: 'StaticPage/SocietyRegistration.html',
-            controller: 'homeController'
-        })
-
-        .when('/Lift1Certificate', {
-            templateUrl: 'StaticPage/Lift1Certificate.html',
-            controller: 'homeController'
-        })
+                templateUrl: 'StaticPage/SocietyRegistration.html',
+                controller: 'homeController'
+            })
+            .when('/SocietyAuditReport', {
+                templateUrl: 'StaticPage/SocietyAuditReport.html',
+                controller: 'homeController'
+            })
+            .when('/Lift1Certificate', {
+                templateUrl: 'StaticPage/Lift1Certificate.html',
+                controller: 'homeController'
+            })
 
         .when('/Lift2Certificate', {
             templateUrl: 'StaticPage/Lift2Certificate.html',
