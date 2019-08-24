@@ -40,6 +40,10 @@ myApp.config(['$routeProvider', '$locationProvider',
                 templateUrl: 'StaticPage/SocietyAuditReport.html',
                 controller: 'homeController'
             })
+            .when('/SocietyAuditReport2', {
+                templateUrl: 'StaticPage/SocietyAuditReport2.html',
+                controller: 'homeController'
+            })
             .when('/Lift1Certificate', {
                 templateUrl: 'StaticPage/Lift1Certificate.html',
                 controller: 'homeController'
